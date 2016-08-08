@@ -13,15 +13,14 @@ System.config({
     "*": "src/*",
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
+    "kendo-sdk/*": "kendo-sdk/*",
     "samplesJSON/*": "https://aurelia-ui-toolkits.github.io/aurelia-kendoui-samples/*"
   },
-
   meta: {
     "showdown/dist/showdown.js": {
       "format": "global"
     }
   },
-
   map: {
     "aurelia-binding": "npm:aurelia-binding@1.0.1",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.2.0.0",
