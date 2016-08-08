@@ -13,6 +13,7 @@ System.config({
     "*": "src/*",
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
+    "kendo-sdk/*": "kendo-sdk/*",
     "samplesJSON/*": "https://aurelia-ui-toolkits.github.io/aurelia-kendoui-samples/*"
   },
   meta: {
@@ -397,7 +398,7 @@ System.config({
     }
   },
   bundles: {
-    "app-build-51f982b6d5.js": [
+    "app-build-e782175ba9.js": [
       "about/about.html!github:systemjs/plugin-text@0.0.4.js",
       "about/about.js",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4.js",
