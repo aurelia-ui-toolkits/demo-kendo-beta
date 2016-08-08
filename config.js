@@ -398,7 +398,7 @@ System.config({
     }
   },
   bundles: {
-    "app-build-e782175ba9.js": [
+    "app-build-ba12082141.js": [
       "about/about.html!github:systemjs/plugin-text@0.0.4.js",
       "about/about.js",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4.js",
@@ -558,6 +558,8 @@ System.config({
       "npm:aurelia-history-browser@1.0.0-beta.2.0.0/aurelia-history-browser.js",
       "npm:aurelia-history@1.0.0-beta.2.0.0.js",
       "npm:aurelia-history@1.0.0-beta.2.0.0/aurelia-history.js",
+      "npm:aurelia-http-client@1.0.0-beta.2.0.0.js",
+      "npm:aurelia-http-client@1.0.0-beta.2.0.0/aurelia-http-client.js",
       "npm:aurelia-loader-default@1.0.0-beta.2.0.0.js",
       "npm:aurelia-loader-default@1.0.0-beta.2.0.0/aurelia-loader-default.js",
       "npm:aurelia-loader@1.0.0.js",
