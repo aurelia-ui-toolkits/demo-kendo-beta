@@ -22,6 +22,7 @@ System.config({
     }
   },
   map: {
+    "aurelia-after-attached-plugin": "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.0",
     "aurelia-binding": "npm:aurelia-binding@1.0.1",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.2.0.0",
     "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.0.0",
@@ -49,6 +50,10 @@ System.config({
     "showdown": "github:showdownjs/showdown@1.4.1",
     "showdown-prettify": "npm:showdown-prettify@1.3.0",
     "text": "github:systemjs/plugin-text@0.0.4",
+    "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.0": {
+      "aurelia-task-queue": "npm:aurelia-task-queue@1.0.0",
+      "aurelia-templating": "npm:aurelia-templating@1.0.0"
+    },
     "github:aurelia-ui-toolkits/aurelia-kendoui-bridge@beta": {
       "aurelia-binding": "npm:aurelia-binding@1.0.1",
       "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.0.0",
@@ -398,7 +403,7 @@ System.config({
     }
   },
   bundles: {
-    "app-build-152a97554a.js": [
+    "app-build-aa5591546b.js": [
       "about/about.html!github:systemjs/plugin-text@0.0.4.js",
       "about/about.js",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4.js",
@@ -408,6 +413,9 @@ System.config({
       "app.js",
       "github:PrismJS/prism@1.3.0.js",
       "github:PrismJS/prism@1.3.0/prism.js",
+      "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.0.js",
+      "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.0/aurelia-after-attached-plugin.js",
+      "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.0/index.js",
       "github:aurelia-ui-toolkits/aurelia-kendoui-bridge@beta.js",
       "github:aurelia-ui-toolkits/aurelia-kendoui-bridge@beta/autocomplete/autocomplete.html!github:systemjs/plugin-text@0.0.4.js",
       "github:aurelia-ui-toolkits/aurelia-kendoui-bridge@beta/autocomplete/autocomplete.js",
