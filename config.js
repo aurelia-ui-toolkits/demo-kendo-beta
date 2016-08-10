@@ -403,7 +403,7 @@ System.config({
     }
   },
   bundles: {
-    "app-build-aa5591546b.js": [
+    "app-build-b7c31dd625.js": [
       "about/about.html!github:systemjs/plugin-text@0.0.4.js",
       "about/about.js",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4.js",
