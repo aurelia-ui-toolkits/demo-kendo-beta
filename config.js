@@ -403,7 +403,7 @@ System.config({
     }
   },
   bundles: {
-    "app-build-b7c31dd625.js": [
+    "app-build-e73abd616d.js": [
       "about/about.html!github:systemjs/plugin-text@0.0.4.js",
       "about/about.js",
       "about/kendo-bridge-init.html!github:systemjs/plugin-text@0.0.4.js",
@@ -1320,6 +1320,8 @@ System.config({
       "shared/au-code.js",
       "shared/collapse-panel.html!github:systemjs/plugin-text@0.0.4.js",
       "shared/collapse-panel.js",
+      "shared/gist-list.html!github:systemjs/plugin-text@0.0.4.js",
+      "shared/gist-list.js",
       "shared/logger.html!github:systemjs/plugin-text@0.0.4.js",
       "shared/logger.js",
       "shared/markdown.js",
